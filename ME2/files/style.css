@@ -1,0 +1,196 @@
+@font-face {
+    font-family: Market;
+    src: url(fonts/Market_Deco.ttf);
+}
+
+@font-face {
+    font-family: Bebas;
+    src: url(fonts/BebasNeue.otf);
+}
+
+@font-face {
+    font-family: Lane;
+    src: url(fonts/Lane.ttf);
+}
+
+#lh-body {
+  background-image: url(pics/lutece.gif);
+}
+
+
+#home-body {
+	background-image: url(pics/columbia.gif);
+}
+
+#prophet-body {
+  background-image: url(pics/prophet.jpeg);
+}
+
+#move-body {
+  background-image: url(pics/welcome.jpg);
+}
+
+#success-body {
+  background-image: url(pics/office.jpg);
+}
+
+#maps-body {
+  background-image: url(pics/maps.jpg);
+}
+
+#fink-body {
+  background-image: url(pics/finkbg.jpg);
+  background-size: cover;
+}
+
+#code-body {
+  background-image: url(pics/falling.jpg);
+}
+
+#design-body {
+  background-image: url(pics/bird.jpg);
+}
+
+body {
+  background-size: cover;
+  background-repeat: repeat-y;
+}
+
+nav {
+  font-size: 40px;
+  font-family: Bebas;
+}
+
+hr {
+  height:1px; 
+  visibility:hidden; 
+  margin-bottom:-1px;
+}
+
+blockquote {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 60px;
+  margin-right: 40px;
+  padding-left: 15px;
+  border-left: 3px solid #ccc;
+  color: white;
+  font-size: 50px;
+  text-align: justify;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 40px;
+  color: white;
+  font-family: Lane;
+  text-align: justify;
+}
+
+h2{
+  font-family: Bebas;
+
+}
+
+label {
+  font-weight:normal;
+}
+
+input {
+  font-weight:bolder;
+}
+
+form {
+  margin-left:50px;
+  font-family:Lane;
+  color:white;
+}
+
+label, button {
+  font-family:Lane;
+  color:white;
+}
+
+th{
+  font-family: Bebas;
+  font-size: 35px;
+  color: white;
+  border: 2px solid white;
+
+}
+
+td{
+  font-family: Lane;
+  font-size: 30px;
+  color: white;
+  border: 2px solid white;
+  font-weight: bolder;
+}
+
+.other-body {
+  background-position:0 50px;
+}
+
+.logo {  
+  -webkit-transition: 400ms;
+  -moz-transition-duration: 400ms;
+  -o-transition-duration: 400ms;
+  transition-duration: 400ms;
+}
+.logo:hover {
+  opacity:.7;
+}
+
+.nav-tabs {
+  font-size: 20px;
+  font-family: Lane;
+  font-weight: bolder;
+}
+
+.show {
+  opacity: 0;
+  -webkit-transition: 800ms;
+  -moz-transition-duration: 800ms;
+  -o-transition-duration: 800ms;
+  transition-duration: 800ms;
+  
+  position:absolute;
+  padding:0;
+  margin:0;
+  top: 50px;
+  bottom:0px;
+  width: 100%;
+  height: 100%;
+
+  background: rgba(0, 0, 0, 0.85);
+  background-size: cover;
+}
+
+.show:hover {
+  opacity: 1;
+}
+
+.defined{
+  width:70%;
+  display:block;
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+}
+
+.form-inline > * {
+   margin:0px 10px;
+}
+
+.carousel{
+  width:840px;
+  height:360px;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.6);
+}

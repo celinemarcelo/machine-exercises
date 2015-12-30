@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MySQL Web Client</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="col-sm-1"></div>
+		<div class="col-sm-3">
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<center>MySQL Web Client</center>
+				</div>
+				<div class="panel-body">
+					<form action="http://localhost/cgi-bin/ME6.cgi" method="post" enctype="multipart/form-data" role="form">
+					<label for="element1">Database:</label>
+					<input type="text" name="database" class="form-control" id="element1"> <br>
+					<label for="element2">Password:</label>
+					<input type="password" name="password" class="form-control" id="element2"> <br>
+					<label for="element3">Query:</label>
+					<input type="text" name="query" class="form-control" id="element3" readonly> <br>
+
+					<input type="submit" name="button" class="btn btn-default" value="Log in">
+
+
+
+
+					
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-6"></div>
+		<div class="col-sm-2"></div>
+	</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>

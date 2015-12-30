@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Move to Columbia!</title>
+    <link href="icon.ico" rel="shortcut icon">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="nav.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="other-body" id="move-body">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div>
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a class="logo" href="home.html">WELCOME</a>
+                    </li>
+
+                    <li>
+                        <a class="logo" href="word.html">A WORD FROM THE
+                        PROPHET</a>
+                    </li>
+
+                    <li>
+                        <a class="logo" href="maps.html">Landmarks</a>
+                    </li>
+
+                    <li class="active">
+                        <a class="logo" href="move.html">Immigration</a>
+                    </li>
+
+                     <li>
+                        <a class="logo" href="fink.html" style="white-space:nowrap;">Fink Mfg.&nbsp;
+                            <span class="label label-info pull-right" style="font-weight:normal; font-family:Lane; font-size:20px;">New</span>
+                        </a>
+                    </li>
+
+                    <li class="dropdown">
+                        <a class="dropdown-toggle logo" data-toggle="dropdown"
+                        href="#">Credits <span class="caret"></span></a>
+
+                        <ul class="dropdown-menu" style="font-size:30px;">
+                            <li>
+                                <a href="code.html">Code and Disclaimer</a>
+                            </li>
+
+                            <li>
+                                <a href="designer.html">About the Designer</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="show">
+        <ul class="nav nav-tabs" style="font-size:25px;">
+            <li class="active">
+                <a data-toggle="tab" href="#welcome">An Invitation</a>
+            </li>
+
+            <li>
+                <a data-toggle="tab" href="#form">Immigrant Information</a>
+            </li>
+        </ul>
+
+        <div class="tab-content">
+            <div class="tab-pane fade in active" id="welcome">
+                <br>
+
+                <center>
+                    <h1 style="font-family: Market; color: white; font-size:80px;">
+                        The City in the Sky welcomes you<br>
+                        <small style="color:white;">Leave the Sodom below and be
+                        redeemed!
+                        </small>
+                    </h1>
+                    <br>
+                    <br>
+                </center>
+
+                <p style="font-size: 30px; float:right;">Click on Immigrant
+                Information tab to fill out form.</p><br>
+            </div>
+
+            <div class="tab-pane fade" id="form">
+                <hr>
+
+                <p style="font-size:40px;">Please fill out the form
+                accordingly.</p>
+                <hr>
+
+                <div class="center-block" style="width:800px;">
+                    <ul class="nav nav-tabs" style="font-size:25px;">
+                        <li class="active">
+                            <a data-toggle="tab" href="#name">Name</a>
+                        </li>
+
+                        <li>
+                            <a data-toggle="tab" href="#gender">Gender</a>
+                        </li>
+
+                        <li>
+                            <a data-toggle="tab" href="#bday">Birthday</a>
+                        </li>
+
+                        <li>
+                            <a data-toggle="tab" href="#num">Contact Number</a>
+                        </li>
+
+                        <li>
+                            <a data-toggle="tab" href="#auth">Submit</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="tab-content center-block" style="width:800px;">
+                    <div class="tab-pane fade in active" id="name">
+                        <br>
+
+                        <form class="form">
+                            <div class="form-group" style="font-size:30px;">
+                                <label for="first_name">First Name:</label>
+                                <input class="form-control input-lg" id=
+                                "first_name" type="text">
+                            </div>
+
+                            <div class="form-group" style="font-size:30px;">
+                                <label for="last_name">Last Name:</label>
+                                <input class="form-control input-lg" id=
+                                "last_name" type="text">
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="tab-pane fade in" id="gender">
+                        <br>
+
+                        <form class="form-inline">
+                            <label for="gender" style=
+                            "font-size:30px;">Gender:</label>
+                            <hr>
+
+                            <div class="radio" style=
+                            "font-size:30px; padding-left:60px;">
+                                <label><input name="gender" type=
+                                "radio">Male</label>
+                            </div>
+
+                            <div class="radio" style="font-size:30px;">
+                                <label><input name="gender" type=
+                                "radio">Female</label>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="tab-pane fade in" id="bday">
+                        <br>
+
+                        <form class="form-inline">
+                            <div class="form-group" style="font-size:30px;">
+                                <label for="bday">Birthday:</label>
+                                <input class="form-control input-lg" id="bday"
+                                type="date">
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="tab-pane fade in" id="num">
+                        <br>
+
+                        <form class="form-inline">
+                            <div class="form-group" style="font-size:30px;">
+                                <label for="num">Contact Number:</label>
+                                <input class="form-control input-lg" id="num"
+                                type="number">
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="tab-pane fade in" id="auth">
+                        <br>
+
+                        <div style="font-size:30px;">
+                            <label>I certify that the entered information is
+                            true.</label>
+                            <hr>
+                            <a href="success.html"><button class="btn btn-danger" style="font-size:30px; float:right;" type="submit">
+                                Accept and submit
+                            </button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <audio autoplay="" loop=""><source src="http://66.90.91.26/ost/bioshock-infinite-soundtrack/fqpwukkluf/211-ben-bernie-his-orchestra-feat.-scrappy-lambent-billy-hillpot-ain-t-she-sweet.mp3" type="audio/mpeg"></audio> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
